@@ -17,12 +17,11 @@ button {
 }
 
 .carta {
-  width: 120px;
-  height: 180px;
+  width: 200px;
+  height: 300px;
   border: 2px solid #000;
   border-radius: 10px;
   position: relative;
-  /* necesario para posicionar las esquinas */
   margin: 20px auto;
   background: #fff;
 }
@@ -48,4 +47,10 @@ button {
 .abajo-der {
   bottom: 5px;
   right: 5px;
+}
+button, input, optgroup, select, textarea {
+    margin: 14px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
